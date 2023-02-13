@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +10,7 @@
 body {
     width: 100%;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
     background-image: url("./website\ background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,10 +22,12 @@ body {
 .img {
     width: 100%;
     text-align: center;
+    margin-bottom: 50px;
 }
 img {
     width: 12rem;
     height: 100px;
+    
    
 }
 .link {
@@ -36,14 +42,15 @@ a {
     text-align: center;
 }
 .box {
-    width: 45px;
-    height: 44px;
+    width: 48px;
+    height: 48px;
     border: 1px solid black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.625rem;
+    margin-left: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 svg {
     color: white;
@@ -93,6 +100,7 @@ svg {
     fill: #7A7917;
 }
 .streamele {
+    
     border: 1px solid #434c50;
 }
 .stream {
@@ -106,11 +114,14 @@ section {
     flex-wrap: wrap;
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 div a {
     color: white;
 }
 path {
+    width: 22px;
+    height: 22px;
     color: white;
 }
 
@@ -119,4 +130,11 @@ section div {
 }
 section div {
     color: white;
+}
+
+@media only screen and (max-width: 550px) {
+    section {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
