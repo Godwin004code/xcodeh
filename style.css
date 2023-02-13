@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./website\ background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    width: 100%;
+    text-align: center;
+}
+img {
+    width: 12rem;
+    height: 100px;
+   
+}
+.link {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+a {
+    font-size: 15px;
+    color: #9e9e9e;
+    text-decoration: none;
+    text-align: center;
+}
+.box {
+    width: 45px;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem;
+}
+svg {
+    color: white;
+    width: 22px;
+    height: 22px;
+}
+.twitter svg:hover {
+    fill: #37688e;
+}
+.twitter {
+    border: 1px solid #37688e;
+}
+.youtube {
+    border: 1px solid #6b0809;
+}
+.youtube svg:hover {
+    fill: #6b0809;
+}
+.twitch {
+    border: 1px solid #4a5785;
+}
+.twitch svg:hover {
+    fill: #4a5785;
+}
+.instagram {
+    border: 1px solid #1c475e;
+}
+.instagram svg:hover {
+    fill: #1c475e;
+}
+.discord {
+    border: 1px solid #5868a3;
+}
+.discord svg:hover {
+    fill: #5868a3;
+}
+.tiktok {
+    border: 1px solid #05a87f;
+}
+.tiktok svg:hover {
+    fill: #05a87f;
+}
+.coffee {
+    border: 1px solid #7A7917;
+}
+.coffee svg:hover {
+    fill: #7A7917;
+}
+.streamele {
+    border: 1px solid #434c50;
+}
+.stream {
+    width: 22px;
+    height: 22px;
+}
+section {
+   
+   text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+}
+div a {
+    color: white;
+}
+path {
+    color: white;
+}
+
+section div {
+    width: 44px;
+}
+section div {
+    color: white;
+}
