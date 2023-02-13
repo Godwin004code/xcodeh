@@ -23,6 +23,14 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+    animation-name: fade;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 1000ms;
+    transform: scale(1.1);
+    transform-origin: center;
 }
 img {
     width: 12rem;
@@ -34,6 +42,14 @@ img {
     width: 100%;
     font-size: 15px;
     text-align: center;
+    animation-name: fade;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 1000ms;
+    transform: scale(1.1);
+    transform-origin: center;
 }
 a {
     font-size: 15px;
@@ -49,8 +65,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.3rem;
 }
 svg {
     color: white;
@@ -115,6 +131,20 @@ section {
     width: 50%;
     margin: 0 auto;
     margin-bottom: 50px;
+    animation-name: fade;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 1000ms;
+    transform: scale(1.1);
+    transform-origin: center;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
 }
 div a {
     color: white;
