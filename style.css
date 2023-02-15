@@ -32,10 +32,9 @@ body {
     transform: scale(1.1);
     transform-origin: center;
 }
-img {
+.logo {
     width: 15rem;
-    height: 160px;
-    
+    height: 160px; 
    
 }
 .link {
@@ -119,9 +118,12 @@ svg {
     
     border: 1px solid #434c50;
 }
-.stream {
-    width: 22px;
-    height: 22px;
+.streamele svg:hover {
+    fill: #434c50;
+}
+.you {
+    width: 35px;
+    height: 35px;
 }
 section {
    
